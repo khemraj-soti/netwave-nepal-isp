@@ -1,0 +1,6 @@
+{
+  "name": "NetWave Nepal ISP",
+  "description": "Next-generation Fiber Internet Service Provider (ISP) portal for Nepal featuring high-speed FTTH plans, NetWave TV, enterprise connectivity, coverage checker, online bill payment, and 24/7 customer self-care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
