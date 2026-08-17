@@ -4,10 +4,10 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
-    base: '/netwave-nepal-isp/',
-  return {
-    plugins: [react(), tailwindcss()],
+
+return {
+base: '/netwave-nepal-isp/',
+plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
