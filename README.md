@@ -1,17 +1,34 @@
-# NetWave Nepal ISP — HTML, CSS & JavaScript
+# NetWave Nepal ISP — HTML, CSS & JavaScript edition
 
-A responsive static website for an Internet Service Provider (ISP), built with plain HTML, CSS, and vanilla JavaScript.
+A responsive ISP landing page rebuilt using only:
+- **HTML5** (`index.html`)
+- **CSS3** (`styles.css`)
+- **Vanilla JavaScript** (`script.js`)
+
+No React, TypeScript, Vite, Tailwind, npm packages, backend, or framework is required.
 
 ## Run locally
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
+1. Extract the ZIP.
+2. Open `index.html` in a browser.
 
-No Node.js, npm, React, TypeScript, Vite, or CSS framework is required to run the website.
+For a local static server, you can use VS Code Live Server, or run `python -m http.server 8000` from this folder and visit `http://localhost:8000`.
 
-## Files
-- `index.html` — page structure and content
-- `styles.css` — responsive styling
-- `script.js` — menu, plan request modal, and demo form interactions
+## Features
+- Responsive navigation and mobile menu
+- ISP landing page and three sample internet plans
+- Connection request modal
+- Sample customer self-care modal
+- Simulated speed-test interaction
+- Coverage enquiry form
+- NetWave TV information modal
+- Support contact form
+- FAQ accordions
+- Responsive layouts and reduced-motion support
 
-## Note
-This is an academic front-end demo. Connection requests, coverage checks, and support forms do not contact a real ISP or send/store submitted data. Google Fonts may load from an external CDN; system-font fallbacks are included.
+## Important project notes
+This is a front-end student-project demo. The forms do not contact an ISP, payments are not processed, account login is not real authentication, coverage is not checked against a live database, and the speed-test number is simulated. Do not enter real passwords or sensitive customer data.
+
+Plan names and prices are illustrative; confirm them before presenting them as actual commercial offers.
+
+## Assignment compliance
+The website source uses HTML, CSS and plain browser JavaScript only. The Google Fonts stylesheet is an optional external font import in CSS; the page still works with fallback fonts when offline.
