@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# NetWave Nepal ISP — HTML, CSS & JavaScript
 
-# Run and deploy your AI Studio app
+A responsive static website for an Internet Service Provider (ISP), built with plain HTML, CSS, and vanilla JavaScript.
 
-This contains everything you need to run your app locally.
+## Run locally
+1. Download or clone this repository.
+2. Open `index.html` in a web browser.
 
-View your app in AI Studio: https://ai.studio/apps/5366ad25-0ef1-4b59-a260-ba39e48ebed5
+No Node.js, npm, React, TypeScript, Vite, or CSS framework is required to run the website.
 
-## Run Locally
+## Files
+- `index.html` — page structure and content
+- `styles.css` — responsive styling
+- `script.js` — menu, plan request modal, and demo form interactions
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Note
+This is an academic front-end demo. Connection requests, coverage checks, and support forms do not contact a real ISP or send/store submitted data. Google Fonts may load from an external CDN; system-font fallbacks are included.
